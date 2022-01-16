@@ -1,6 +1,6 @@
 # CLAHE
 
-CLAHE was used in this study to improve the image's contrast and features by making abnormalities more noticeable. Among the histogram equalization family, Contrast Limited Adaptive Histogram Equalization (CLAHE) is more natural in appearance and useful in the reduction of noise amplification, and we have investigated CLAHE and applied it to our dataset as shown in {Figure \ref{fig:3}}. A full explanation of the CLAHE approach is given below to demonstrate its effectiveness:
+CLAHE is used to improve the image's contrast and features by making abnormalities more noticeable. Among the histogram equalization family, Contrast Limited Adaptive Histogram Equalization (CLAHE) is more natural in appearance and useful in the reduction of noise amplification. A full explanation of the CLAHE approach is given below to demonstrate its effectiveness:
 
 1.) The generation of the image transformation using the bin value of the histogram is the first stage of the CLAHE technique.
 
@@ -16,10 +16,12 @@ This is the code for preproessing original image(s) to CLAHE image(s). This code
 
 
 ![65](https://user-images.githubusercontent.com/61402731/149647964-01de8663-e9b4-469a-83b0-42eaa919b2ee.jpg)
+
 Original CXR image
 
 
 
 
 ![65_1_CLAHE](https://user-images.githubusercontent.com/61402731/149647965-a4de1f1b-694b-43a5-a173-9e7c825646f1.jpg)
+
 CLAHE CXR image
